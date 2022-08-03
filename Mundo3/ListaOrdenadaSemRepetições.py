@@ -6,7 +6,7 @@ for i in range(5):
     if i == 0 or valor >= lista[-1]:
         lista.append(valor)
     else:
-    #Pecorre a lista até que chegue em um valor menor que a entrada, nesse momento, se insere antes desse valor 
+    #Pecorre a lista até que chegue em um valor menor que a entrada, nesse momento, se insere antes desse valor.
         for pos in range(len(lista)):
             if valor <= lista[pos]:
                 lista.insert(pos, valor)
